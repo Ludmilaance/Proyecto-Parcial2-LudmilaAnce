@@ -1,0 +1,183 @@
+[
+  {
+    "nombre": "Cactus",
+    "descripcion": "Cactus pequeño, ideal para interiores.",
+    "stock": 20,
+    "precio": 500,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLKsceupz5XgSA4nU4Z_X9rGDFoxqaPXyQnA&s",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Suculenta",
+    "descripcion": "Suculenta con fácil mantenimiento.",
+    "stock": 15,
+    "precio": 350,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_637060-MLM73367943954_122023-O.webp",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Helecho",
+    "descripcion": "Helecho colgante para espacios sombreados.",
+    "stock": 10,
+    "precio": 700,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_723857-MLA75956462602_052024-O.webp",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Bonsai",
+    "descripcion": "Árbol Bonsai de 5 años de antigüedad.",
+    "stock": 5,
+    "precio": 2500,
+    "imagen": "https://i.ebayimg.com/images/g/HmcAAOSwWf1gOmMv/s-l1200.jpg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Aloe Vera",
+    "descripcion": "Planta Aloe Vera con propiedades curativas.",
+    "stock": 12,
+    "precio": 450,
+    "imagen": "https://www.purenature.co.nz/cdn/shop/products/AloeVera_b0b9f897-9273-4484-8fc5-aba67ae782b1.png?v=1653880818",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Ficus",
+    "descripcion": "Ficus de interior, fácil de cuidar.",
+    "stock": 8,
+    "precio": 1200,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIXabkzI30GtLvwUeQNwX7z8_4Dmw1F6C5FwidKqqW9nNcyMegn9hNL1P1fObQcdzXG-E&usqp=CAU",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Orquídea",
+    "descripcion": "Orquídea con flores de colores vibrantes.",
+    "stock": 6,
+    "precio": 1800,
+    "imagen": "https://jardinconstanza.com/168-superlarge_default_2x/orquidea-premium.jpg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Lavanda",
+    "descripcion": "Lavanda aromática ideal para jardín.",
+    "stock": 25,
+    "precio": 300,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-nmG1_F5XhRddbQ_E4LG3U6wt60lHAc2mKBU02d8iRj-8q32qUgiNyvT51vQ834cX33Y&usqp=CAU",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Palmera",
+    "descripcion": "Palmera de interior de crecimiento lento.",
+    "stock": 3,
+    "precio": 3500,
+    "imagen": "https://www.thegarden.cl/cdn/shop/products/palmera-arbol-102050102031-01a58c58-10fb-4e7c-91b9-a1ebeff99e2f_1000x1000.jpg?v=1659560140",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Hierbabuena",
+    "descripcion": "Hierbabuena para uso culinario y medicinal.",
+    "stock": 30,
+    "precio": 150,
+    "imagen": "https://www.sorianatural.es/storage/img/F0000008518_plantas_web_ok_peppermint.jpg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Maceta Blanca",
+    "descripcion": "Maceta blanca de cerámica, elegante y moderna.",
+    "stock": 20,
+    "precio": 350,
+    "imagen": "https://cinderelladecoracion.com/wp-content/uploads/2023/09/NQ2B.jpg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Maceta Gris",
+    "descripcion": "Maceta de cemento gris, diseño minimalista.",
+    "stock": 15,
+    "precio": 500,
+    "imagen": "https://acdn.mitiendanube.com/stores/262/427/products/whatsapp-image-2024-05-21-at-16-27-53-601d7f02050a2058d717164772900724-640-0.jpeg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Maceta Cute",
+    "descripcion": "Maceta de colores vibrantes para interior.",
+    "stock": 18,
+    "precio": 450,
+    "imagen": "https://m.media-amazon.com/images/I/71xXwVDksYL.jpg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Maceta Negra",
+    "descripcion": "Maceta negra de alta resistencia.",
+    "stock": 10,
+    "precio": 700,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_759259-MCO74448318212_022024-O.webp",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Maceta Grande",
+    "descripcion": "Maceta grande de terracota para plantas altas.",
+    "stock": 5,
+    "precio": 1200,
+    "imagen": "https://m.media-amazon.com/images/I/71TSVoeznAL._AC_UF894,1000_QL80_.jpg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Maceta de Bambú",
+    "descripcion": "Maceta ecológica hecha de bambú.",
+    "stock": 7,
+    "precio": 800,
+    "imagen": "https://s.alicdn.com/@sc04/kf/Ha46f6308d2144f1da267f918bfe116bde.jpg_720x720q50.jpg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Maceta Mini",
+    "descripcion": "Maceta pequeña ideal para suculentas.",
+    "stock": 22,
+    "precio": 250,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_908839-MCO77599874951_072024-T.webp",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Maceta Cactus",
+    "descripcion": "Maceta de ceramica, realizada a mano.",
+    "stock": 8,
+    "precio": 650,
+    "imagen": "https://acdn.mitiendanube.com/stores/064/046/products/maceta-cactus-verde-min1-9445aff1ea78ee304616650868541526-1024-1024.jpg",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Suculenta Colorida",
+    "descripcion": "Suculenta con colores vibrantes, fácil de cuidar.",
+    "stock": 12,
+    "precio": 450,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_782764-MLA79086960712_092024-O.webp",
+    "ancho": "200px",
+    "alto": "200px"
+  },
+  {
+    "nombre": "Bonsai Japonés",
+    "descripcion": "Bonsai japonés minero con amatista y en maceta de cerámica.",
+    "stock": 3,
+    "precio": 1800,
+    "imagen": "https://mineralia.com/cdn/shop/products/arbolrosa_0000_Capa1_combinado_1080x.jpg?v=1611793995",
+    "ancho": "200px",
+    "alto": "200px"
+  }
+]
+

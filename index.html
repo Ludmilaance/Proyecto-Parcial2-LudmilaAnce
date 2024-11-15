@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greenscape</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <script src="popupscript.js"></script>
+    <script src="cookiesscript.js"></script>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close">&times;</span>
+            <img src="IMAGENES/ESTOESUNANUNCIO.jpg" alt="Anuncio" class="popup-image">
+            <p>Este es un anuncio importante. ¡No te lo pierdas!</p>
+            <button class="popup-close-button">Cerrar</button>
+        </div>
+    </div>
+
+    <div id="cookieBanner" class="cookie-banner">
+        <p>Este sitio web utiliza cookies para mejorar tu experiencia. <button id="acceptCookies">Aceptar</button></p>
+    </div>
+
+    <header>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="">
+        </a>
+        <ul class="navbar">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li>
+                <a href="carrito.html">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </a>
+            </li>
+            <li>
+                <button id="loginBtn">
+                    <span class="material-symbols-outlined">person</span>
+                </button>
+            </li>
+        </ul>
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Iniciar Sesión</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Usuario:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="password" required minlength="6">
+                    </div>
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>GREENSCAPE</h1>
+            <p>ESTUDIO DE PAISAJISMO Y DISEÑO DE JARDINES EN MADRID</p>
+            <a href="#" class="btn">Mas Informacion</a>
+        </div>
+        <div class="home-img">
+            <img id="Inicio" src="https://media.admagazine.com/photos/618a5e4c58ac69e38abb5d66/master/w_1600%2Cc_limit/93332.jpg">
+        </div>
+    </section>
+
+    <section class="Somos" id="Somos">
+        <div class="Somos-img">
+            <img src="https://images.homify.com/v1437692372/p/photo/image/103863/1__4_.jpg" alt="Quienes Somos">
+        </div>
+        <div class="Somos-texto">
+            <h2>Quienes Somos</h2>
+            <p>En Greenscape, nos destacamos como un estudio de jardinería y paisajismo en Madrid, especializándonos en la creación de jardines que son verdaderas obras de arte vivientes. Nuestra pasión, experiencia y formación se reflejan en cada proyecto, donde la belleza natural se fusiona con diseños innovadores para transformar espacios exteriores en entornos únicos y personalizados.</p>
+            <a href="#" class="btn">Leer más</a>
+        </div>
+    </section>
+
+    <section class="Proyectos" id="Proyectos">
+        <div class="Proyectos-texto">
+            <h2>Proyectos</h2>
+            <p>En Greenscape, nos destacamos como un estudio de jardinería y paisajismo en Madrid, especializándonos en la creación de jardines que son verdaderas obras de arte vivientes. Nuestra pasión, experiencia y formación se reflejan en cada proyecto, donde la belleza natural se fusiona con diseños innovadores para transformar espacios exteriores en entornos únicos y personalizados.</p>
+        </div>
+        <div class="Proyectos-img">
+            <a href="#" class="Proyectos-item">
+                <img src="https://greenscape.es/wp-content/uploads/2022/05/Paisajismo-jardines-diseno-pozuelo-chalet-9-1536x1536.jpg" alt="Proyecto 1">
+            </a>
+            <a href="#" class="Proyectos-item">
+                <img src="https://greenscape.es/wp-content/uploads/2015/10/Paisajismo-jardines-diseno-boadilla-madrid-1536x1536.jpeg" alt="Proyecto 2">
+            </a>
+            <a href="#" class="Proyectos-item">
+                <img src="https://greenscape.es/wp-content/uploads/2015/10/Paisajismo-jardines-aravaca-madrid-diseno-1536x1536.jpeg" alt="Proyecto 3">
+            </a>
+        </div>
+    </section>
+
+    <section class="Servicios" id="Servicios">
+        <div class="service-heading">
+            <h2>SERVICIOS</h2>
+            <p>¿QUÉ SERVICIOS TE OFRECEMOS?<br>
+                SERVICIOS DE PAISAJISMO Y JARDINERÍA EN POZUELO DE ALARCÓN<br><br>
+                Nuestros proyectos tratan de ser sostenibles de principio a fin, desde la primera fase de análisis de la situación de partida donde estudiamos el entorno donde se va a implantar el jardín para seleccionar en la fase de diseño las especies vegetales adaptadas a él y seleccionar todos los materiales, en la medida de lo posible, de la zona del proyecto para promover la economía local y reducir la huella de carbono.
+                En la fase final de cuidado y mantenimiento del jardín también tratamos de ser responsables y respetuosos con el medio ambiente, tratando siempre de no usar productos químicos a no ser que sea estrictamente necesario.
+            </p>
+        </div>
+        <div class="carousel">
+            <div class="slide" style="background-image: url('https://elnumeral.com/wp-content/uploads/2022/08/asesoramiento-en-jardineria-1.jpg')">
+                <div class="overlay-text">SERVICIOS DE PAISAJISMO Y JARDINERÍA EN MADRID</div>
+            </div>
+            <div class="slide" style="background-image: url('https://modelandi.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGbW9kZWxhbmRpLmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAyMCUyRjAzJTJGMTMtMS1lMTU4NTE0OTM5OTM1Mi5qcGcmY2FjaGVNYXJrZXI9MTY1NzI3MDUxOC0yOTQxNzQmdG9rZW49MmZkZmI2NzJmOTdhYmUzZQ.q.jpg')">
+                <div class="overlay-text">DISEÑO DE JARDINES EN MADRID</div>
+            </div>
+            <div class="slide" style="background-image: url('https://www.limsama.com/uploads/images/jardineria1.jpg')">
+                <div class="overlay-text">MANTENIMIENTO DE JARDINES EN MADRID</div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo.png" alt="Greenscape Logo">
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_LA"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook"></a>
+            <a href="https://x.com/?lang=es"><img src="https://cdn-icons-png.flaticon.com/512/3938/3938028.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-search">
+            <input type="text" placeholder="Buscar..." id="searchInput">
+            <button id="searchButton">Buscar</button>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>&copy; 2024 Greenscape. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
+
+
